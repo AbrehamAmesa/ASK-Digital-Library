@@ -1,0 +1,275 @@
+.f1{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.f2{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("backbest1.jpg");
+    background-size: cover;
+  }
+  
+  .container{
+    width:80%;
+    height: 900px;
+    margin: 0 auto;
+  }
+  
+  .details{
+    text-align: center;
+  }
+  
+  .details h2{
+    color:#ff8400;
+    font-size:50px;
+    margin: 0;
+  }
+  .details h2:hover{
+    color:#ffffff;
+    margin: 0;
+    transition: 1s ease-in-out;
+    transform: scale(1.5);
+  }
+  .main-box{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .box{
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+    padding: 40px 20px;
+    color: #000000;
+    position: relative;
+    z-index: 2;
+    border-radius: 5px;
+    
+  
+  }
+  .box > * {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+  }
+  
+  .box::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .box:hover::before{
+    width: 95%;
+    height: 95%;
+    transition: all ease .50s;
+  }
+  
+  .box .icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .box .icon .fas{
+    color: #f7f7f7;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  hr{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: block;
+    width: 70%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  .box a{
+    text-decoration: none;
+    color: #020202;
+    text-transform: uppercase;
+    background-color:#a54800fc ;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-top: 25px;
+    display: inline-block;
+    font-weight: 600 ;
+  }
+  .box a:hover{
+    background-color:#f6fbfd ;
+    transition: 1s ease-in-out;
+    transform: scale(1.1);
+  }
+  
+  .box .white-border{
+    border: 1px solid #ffffff;
+  }
+  
+  
+  .box-1{
+    background: url("servf3.jpg");
+    background-size: cover;
+  }
+  
+  .box-2{
+    background: url("servf2.jfif");
+    background-size: cover;
+  }
+  .box-3{
+    background: url("servf1.jpg");
+    background-size: cover;
+  }
+  .main-box .icon img{
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      
+  }
+  .main-box .icon img:hover{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transform: scale(1.5);
+    transition: 1s ease-in-out;
+}
+.container  p{
+  color: rgb(226, 98, 0);
+  font-size: 22px;
+  font-weight: bold;
+  background: linear-gradient(to top,rgba(0,0,0,0.8),rgb(0,0,0,0.8)50%);
+  
+}
+.container  p:hover{
+  color: rgb(252, 251, 251);
+  font-size: 22px;
+  font-weight: bold;
+  background: linear-gradient(to top,rgba(0,0,0,0.8),rgb(0,0,0,0.8)50%);
+  
+}
+
+
+
+
+
+
+
+
+
+.container .h p{
+  color: rgb(226, 98, 0);
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(to top,rgba(0,0,0,0.8),rgb(0,0,0,0.8)50%);
+  
+}
+.container .h p:hover{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  transition: 1s ease-in-out;
+  transform: scale(1.2);
+  
+}
+.container .h h2{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  background: linear-gradient(to top,rgba(0,0,0,0.8),rgb(0,0,0,0.8)50%);
+  
+}
+.container .h h2:hover{
+  color: rgb(237, 103, 0);
+  font-size: 20px;
+  font-weight: bold;
+  transition: 1s ease-in-out;
+  transform: scale(1.2);
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.f1{
+  height: 80px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
+
+
+
+
+.f1 ul {
+  float: left;
+  display: flex;
+  margin-left: 160vh;
+  margin-top: -50px;
+  padding: 8px 10px;
+  justify-content: space-between;
+}
+.f1 ul li{
+  justify-content: space-between;
+}
+
+
+.f1 ul li:first-child{
+  margin-left: 0px;
+}
+.f1 ul li a{   
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  justify-content: space-between;
+}
+.f1 ul li a:hover{
+  background: rgb(250, 133, 0);
+  color: black;
+}
+.f1 h1{
+  font-size: 36px;
+  margin-left: 60px;
+  color: rgb(197, 53, 0);
+  font-family: sans-serif;
+  
+  
+}
+.f1 h1:hover{
+  color: chocolate;
+  transition: 1s ease-in-out;
+}
