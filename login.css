@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.f1{
+  height: 80px;
+  width: 100%;
+  background-color: rgb(9, 0, 85);
+}
+.f1 h1{
+  font-size: 36px;
+  margin-left: 80px;
+  color: rgb(170, 97, 0);
+  font-family: sans-serif;
+  
+  
+}
+.f1 h1:hover{
+  color: rgb(255, 255, 255);
+  transition: 1s ease-in-out;
+  transform: scale(1.1);
+}
+
+
+
+
+.f1 ul {
+  float: left;
+  display: flex;
+  margin-left: 160vh;
+  margin-top: -30px;
+  padding: 8px 10px;
+  justify-content: space-between;
+}
+.f1 ul li{
+  justify-content: space-between;
+}
+
+
+.f1 ul li:first-child{
+  margin-left: 0px;
+}
+.f1 ul li a{
+    
+    border-radius: 5px;
+    padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  justify-content: space-between;
+}
+.f1 ul li a:hover{
+  background: rgb(250, 133, 0);
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.f2{
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  place-items: center;
+  background: url("backbest1.jpg");
+  background-size: cover;
+} 
+::selection{
+  background: #4158d0;
+  color: #fff;
+}
+.wrapper{
+  width: 480px;
+  background:linear-gradient(to top,rgba(0,0,0,0.8),rgba(0,0,0,0.8)50%);
+  border-radius: 10px;
+ 
+}
+.wrapper .title{
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  user-select: none;
+  border-radius: 15px 15px 0 0;
+  background:url("book1.gif");
+}
+.wrapper form{
+  padding: 10px 30px 50px 30px;
+}
+.wrapper form .field{
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  
+  position: relative;
+}
+.wrapper form .field input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 17px;
+  color: white;
+  padding-left: 20px;
+  background: none;
+  border: 2px solid rgb(221, 89, 0);
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+.wrapper form .field input:focus,
+form .field input:valid{
+  border-color: #d36f04;
+}
+.wrapper form .field label{
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  color: #d65d00;
+  font-weight: 400;
+  font-size: 17px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+form .field input:focus ~ label,
+form .field input:valid ~ label{
+  top: 0%;
+  font-size: 16px;
+  color: #dc8606;
+  background:transparent;
+  transform: translateY(-50%);
+}
+form .content{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-around;
+}
+form .content .checkbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form .content input{
+  width: 15px;
+  height: 15px;
+  background: rgb(255, 255, 255);
+}
+form .content label{
+  color: #c73f00;
+  user-select: none;
+  padding-left: 5px;
+}
+
+form .content .pass-link{
+  color: "";
+}
+.f2 .wrapper .field a{
+  color: rgb(242, 139, 6);
+  border: none;
+  width: 150px;
+  height: 40px;
+  padding-left: 0;
+  margin-top: -10px;
+  margin-left: 150px;
+  font-size: 30px;
+  font-weight: 500;
+  cursor: pointer;
+ 
+  transition: all 0.3s ease;
+}
+form .field input[type="submit"]:active{
+  transform: scale(1.2);
+}
+form .signup-link{
+  color: #ffffff;
+  margin-top: 20px;
+  text-align: center;
+}
+form .signup-link:hover{
+  color: #c45f00;
+  transition: 1s ease-in-out;
+  transform: scale(1.2);
+}
+
+form .pass-link a,
+form .signup-link a{
+  color: #ffffff;
+  text-decoration: none;
+}
+form .pass-link a:hover,
+form .signup-link a:hover{
+  text-decoration: underline;
+}
+form .signup-link a:visited{
+  color: #ffffff;
+}
