@@ -1,0 +1,273 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+
+ .final img {
+    border: none;
+    max-width: 100%;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.final ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.final p {
+    margin: 0 0 10px;
+}
+
+.final .demo {
+  max-width: 80em;
+  margin: 0 auto;
+}
+
+.final .wrapper {
+  max-width: 80em;
+  margin: 0 auto;
+}
+
+.final .filipcontainer {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+  .filipcontainer {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .filipcontainer {
+    width: 1170px;
+  }
+}
+
+.final h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.final h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.final h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(40, 70, 90);
+}
+.final h2, .h2 {
+    font-size: 30px;
+}
+
+.final h3, .h3 {
+    font-size: 24px;
+}
+
+.final .text-center {
+    text-align: center;
+}
+
+.final .text-left {
+    text-align: left;
+}
+
+.final a {
+    text-decoration: none;
+    color: #f36b21;
+    outline: none;
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
+
+.final .banner h1, .banner h3, .banner h6 {
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+}
+
+.final .banner {
+  color: white;
+
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.final h1, h3, h6 {
+    color: white;
+  }
+
+  .final h1 {
+    font-size: 60px;
+  }
+  .final h3 {
+    font-size: 32px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  .final h6 {
+    font-size: 22px;
+  }
+
+
+
+@media screen and (max-width: 35.5em) {
+  
+}
+
+
+@media screen and (max-width: 48em) {
+  
+}
+
+@media screen and (max-width: 64em) {
+  
+}
+
+
+@media screen and (max-width: 80em) {
+  
+}
+
+.final .section-wrap--md {
+    padding: 170px 0;
+}
+.final .section-wrap {
+    padding: 120px 0;
+    overflow: hidden;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.final .bg-light {
+    background-color: #f7f9fa;
+}
+
+.final h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #121212;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.final .call-to-action__title {
+    font-size: 30px;
+}
+
+.final .call-to-action__dot {
+    color: #f36b21;
+}
+
+.final .mt-40 {
+    margin-top: 40px;
+}
+
+.final .btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    overflow: hidden;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.14em;
+    border-radius: 3px;
+    border: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: #fff;
+    background-color: #121212;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: relative;
+    z-index: 1;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.final .btn-lg, .btn-lg.btn-button {
+    font-size: 13px;
+    padding: 0 34px;
+    line-height: 46px;
+}
+
+.final .btn-color {
+    background-color: #e63247;
+}
+
+.final .btn-icon span {
+    position: relative;
+    display: inline-block;
+    left: 0;
+    -webkit-transition: left 0.2s ease-in-out, right 0.2s ease-in-out;
+    -moz-transition: left 0.2s ease-in-out, right 0.2s ease-in-out;
+    -ms-transition: left 0.2s ease-in-out, right 0.2s ease-in-out;
+    -o-transition: left 0.2s ease-in-out, right 0.2s ease-in-out;
+    transition: left 0.2s ease-in-out, right 0.2s ease-in-out;
+}
+
+.final .btn-icon > i {
+    position: absolute;
+    left: auto;
+    font-size: 18px;
+    width: 36px;
+    line-height: 46px;
+    background-color: rgba(0, 0, 0, 0.05);
+    right: -36px;
+    top: 0;
+    text-align: center;
+    display: block;
+    border-radius: 0 3px 3px 0;
+    -webkit-transition: left 0.2s ease-in-out, right 0.2s ease-in-out;
+    -moz-transition: left 0.2s ease-in-out, right 0.2s ease-in-out;
+    -ms-transition: left 0.2s ease-in-out, right 0.2s ease-in-out;
+    -o-transition: left 0.2s ease-in-out, right 0.2s ease-in-out;
+    transition: left 0.2s ease-in-out, right 0.2s ease-in-out;
+}
+
+.final .btn:hover {
+    color: #fff;
+    opacity: .9;
+    border-color: transparent;
+}
+
+.final .btn-icon:hover span {
+    left: -16px;
+}
+
+.final .btn-icon:hover i {
+    right: 0;
+}
