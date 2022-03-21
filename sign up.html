@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="sign up.css">
+
+    <script src="signup.js"></script>
+    <script src="terms.js"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body onsubmit="checkForm()"  >
+
+
+  
+  <div class="f1">
+   <h1>Wolkite University digital library registration form</h1>
+   <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="#">Help</a></li>
+   </ul>
+  </div>
+
+
+
+
+
+
+
+<div class="f2">
+  <div class="container">
+    <div class="title">REGISTER HERE</div>
+    <div class="content">
+      <form method="POST" name="myForm" action="ip.php" >
+        <div class="user-details">
+
+          <div class="input-box">
+            <span class="details">First Name</span>
+            <input type="text" name="fname" placeholder="Enter your First Name" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Last Name</span>
+            <input type="text" name="lname" placeholder="Enter your Last Name" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="email" name="email" placeholder="Enter your email" required>
+          </div>
+
+
+          <div class="input-box">
+            <span class="details">Department</span>
+            <input type="text" name="department" placeholder="Enter your Department" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">College</span>
+            <input type="text" name="college" placeholder="Enter Your College" required>
+          </div>
+
+
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" name="phone" placeholder="Enter your phone number" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" name="ppassword" maxlength="10" minlength="6" placeholder="Enter password" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="password" name="cpassword" maxlength="10" minlength="6" placeholder="Confirm password" required>
+          </div>
+        </div>
+
+
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1" required>
+          <input type="radio" name="gender" id="dot-2" required>
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          </div>
+        </div>
+
+
+        <div class="button">
+          <input type="submit" value="Sign up" onclick ="validate()">
+        </div>
+
+
+
+
+
+      </form>
+    </div>
+  </div>
+</div>
+<div class="f3">
+
+</div>
+</body>
+</html>
